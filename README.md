@@ -65,7 +65,7 @@ global.BotName = "X-GEN-MD";
 
 2. Now Deploy
     <br>
-<a href='' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://xgenbot.vercel.app/deploy.html' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 ### DEPLOY TO CODESPACE
