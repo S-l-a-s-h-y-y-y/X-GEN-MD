@@ -554,8 +554,8 @@ function ucapan() {
 }
 function timeimg() {
     let imgloc = ''
-  const time = moment.tz('Asia/Karachi').format('HH')
-  imgloc = ('./media/elaina8.png')
+  const time = moment.tz('Asia/Dhaka').format('HH')
+  imgloc = ('./media/xgen8.png')
   if (time >= 0) {
     imgloc = ('./media/xgen.png')
   }
