@@ -69,7 +69,7 @@ global.BotName = "X-GEN-MD";
 
 2. Now Deploy
     <br>
-<a href='' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://xgenbot.vercel.app/deploy.html' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 ### DEPLOY TO CODESPACE
@@ -100,7 +100,7 @@ global.BotName = "X-GEN-MD";
 
 8. Now Deploy
     <br>
-<a href='https://railway.app/new/template/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
+<a href='https://railway.app/new/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
 
 ---
 
