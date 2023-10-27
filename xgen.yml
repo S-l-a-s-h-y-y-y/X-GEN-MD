@@ -1,3 +1,4 @@
+
 x-uffizzi:
   ingress:
     service: app
