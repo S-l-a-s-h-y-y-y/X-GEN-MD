@@ -7,6 +7,7 @@
  */ 
  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'; 
  import './config.js' 
+ import Config from './config'
   
  import path, { join } from 'path' 
  import { platform } from 'process' 
@@ -93,9 +94,23 @@
      global.db.chain = chain(db.data) 
  } 
  loadDatabase() 
+
+async function MakeSession(){
+if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
+    if(cc.length<30){
+    const axios = require('axios');
+    let { data } = await axios.get('https://paste.c-net.org/'+cc)
+    await fs.writeFileSync(__dirname + '/sessions/creds.json', atob(data), "utf8")    
+    } else {
+	 var c = atob(cc)
+         await fs.writeFileSync(__dirname + '/sessions/creds.json', c, "utf8")    
+    }
+}
+}
+MakeSession()
   
  global.authFolder = storeSys.fixFileName(`${opts._[0] || ''}sessions`) 
-     let { state, saveCreds } = await useMultiFileAuthState(path.resolve('./sessions')) 
+     let { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/') 
      let { version, isLatest } = await fetchLatestBaileysVersion() 
      console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`) 
  /*const store = storeSys.makeInMemoryStore() 
