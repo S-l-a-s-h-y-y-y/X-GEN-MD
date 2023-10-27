@@ -21,6 +21,10 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 
+// Session ID Configuration 
+export const sessionName = 'put your session ID here';
+// Session ID Configuration End
+
 
 
 /*============== USERS ==============*/
