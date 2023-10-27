@@ -3,6 +3,7 @@
    Yang Jual Script Ini Report/Hangusin Aja Akunnya Atau Pukulin ae orangnya 
    Fix Doesn't Show QrCode & Multi Auth State 
    Regards from YanXiao ♡ 
+   
  */ 
  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'; 
  import './config.js' 
