@@ -7,7 +7,7 @@
  */ 
  process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0'; 
  import './config.js' 
- import Config from './config'
+ import Config from './config.js'
   
  import path, { join } from 'path' 
  import { platform } from 'process' 
