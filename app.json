@@ -5,6 +5,13 @@
   "repository": "https://github.com/X-S-L-A-S-H-E-R/X-GEN-MD",
   "logo": "https://i.ibb.co/jLnr3K9/20231025-195821.jpg",
   "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "games-wabot", "epic rpg"],
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your session id here",
+      "required": true,
+      "value": ""
+    }
+  },
    "buildpacks": [
   {
     "url": "heroku/nodejs"

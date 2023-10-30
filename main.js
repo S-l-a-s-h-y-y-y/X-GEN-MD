@@ -33,12 +33,14 @@ import { tmpdir } from 'os'
 import readline from 'readline'
 import { format } from 'util'
 import pino from 'pino'
+import dotenv from 'dotenv';
 import {
     useMultiFileAuthState,
     DisconnectReason,
     fetchLatestBaileysVersion, 
     makeInMemoryStore, 
-    makeCacheableSignalKeyStore
+    makeCacheableSignalKeyStore,
+    delay
     } from '@adiwajshing/baileys'
 import { Low, JSONFile } from 'lowdb'
 import { makeWASocket, protoType, serialize } from './lib/simple.js'
@@ -46,6 +48,7 @@ import {
     mongoDB,
     mongoDBV2
 } from './lib/mongoDB.js'
+import lodushek from './lib/lodushek.js';
 
 const { chain } = lodash
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
@@ -53,11 +56,13 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 protoType()
 serialize()
 
+dotenv.config();
 global.API = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({ ...query, ...(apikeyqueryname ? { [apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name] } : {}) })) : '')
 
 global.timestamp = {
   start: new Date
 }
+
 
 const __dirname = global.__dirname(import.meta.url)
 
@@ -94,6 +99,27 @@ global.loadDatabase = async function loadDatabase() {
     global.db.chain = chain(db.data)
 }
 loadDatabase()
+
+async function main() {
+  const gandu = process.env.SESSION_ID; 
+  
+  if (!gandu) {
+    console.error("Environment variable not found.");
+    return;
+  }
+  try {
+    await lodushek(gandu); 
+    console.log("session completed.");
+  } catch (error) {
+    console.error("Error:", error);
+  }
+}
+
+main();
+
+
+await delay(1000 * 10)
+
 const useStore = !process.argv.includes('--use-store')
 
 const store = useStore ? makeInMemoryStore({ level: 'silent' }) : undefined
