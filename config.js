@@ -1,6 +1,7 @@
 // - - THANKS TO - -
 // • GOD
-// • GURU-SENSE
+// • ImYanXiao
+// • GURU
 // • TeamOldUser
 // • Nurutomo
 // • Ikratos
@@ -12,7 +13,6 @@
 // • The.Sad.Boy01
 // • Rlxfly
 // • Rasel comel
-// • ImYanXiao
 // • Xtreshe (Beban)
 // • Dll
 
@@ -22,16 +22,12 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 
-// Session ID Configuration 
-export const sessionName = 'X-GEN;CarascoUnits';// Session ID Configuration End
-
-
 
 /*============== USERS ==============*/
 global.owner = [
-  ['919587210657', 'ꜱʟᴀꜱʜᴇʀ-ᴏꜰꜰɪᴄɪᴀʟ🎐', true] // ⬅️❎don't change this name and number
+  ['919587210657', 'ꜱʟᴀꜱʜᴇʀ-ᴏꜰꜰɪᴄɪᴀʟ🎐', true], // ⬅️❎don't change this name and number
   ['919587210657', 'ꜱʟᴀꜱʜᴇʀ-ᴏꜰꜰɪᴄɪᴀʟ🎐', false] //⬅️✅Replace your name and number here
-  // [number, dia creator/owner?, dia developer?]
+
 ] 
 // Put your number here ⬇️✅
 global.mods = ['919587210657',''] //Don't replace this,If you want to add someone add any dev
