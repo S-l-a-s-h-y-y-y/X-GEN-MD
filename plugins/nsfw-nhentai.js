@@ -1,4 +1,5 @@
-let fetch = require('node-fetch')
+import fetch from 'node-fetch'
+
 let handler = async(m, { conn, usedPrefix, args, command }) => {
   if (!args[0]) throw `Please enter the code as a parameter!\n\nExample: ${usedPrefix + command} 304307`
   let res1 = await fetch(global.API('lol', `/api/nhentai/${args[0]}`, {}, 'apikey'))

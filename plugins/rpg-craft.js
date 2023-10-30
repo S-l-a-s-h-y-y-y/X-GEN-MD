@@ -118,7 +118,7 @@ const listMessage = {
             break
             case 'atm':
           if (user.atm > 0) return m.reply('You already have this')
-            if(user.emerald < 3 || user.money < 10000 || user.diamond < 6) return m.reply(`Not enough goods!\To make an atm. You need:\10k Money 💹\n3 Emerald ❇️\n6 Diamond 💎`)
+            if(user.emerald < 3 || user.money < 10000 || user.diamond < 6) return m.reply(`Not enough goods!\nTo make an atm. You need:\n10k Money 💹\n3 Emerald ❇️\n6 Diamond 💎`)
             global.db.data.users[m.sender].emerald -= 3
             global.db.data.users[m.sender].money -= 10000
             global.db.data.users[m.sender].diamond -= 6
