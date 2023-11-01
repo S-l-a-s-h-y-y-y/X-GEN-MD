@@ -30,17 +30,17 @@ global.owner = [
 
 ] 
 // Put your number here ⬇️✅
-global.mods = ['919587210657',''] //Don't replace this,If you want to add someone add any dev
+global.mods = ['919587210657','2349017935543'] //Don't replace this,If you want to add someone add any dev
 global.prems = [] // Premium user is not here to add it, type .addprem @ user 10
 
 //*============= ==============*/
 
 
 /*============== CHANGINGS ==============*/
-global.nomorbot = '919587210657' //Change it to your own
-global.nomorown = '919587210657' //Change it to your own
-global.namebot = 'X-GEN-MD' //change it to your own
-global.nameown = 'ꜱʟᴀꜱʜᴇʀ-ᴏꜰꜰɪᴄɪᴀʟ🎐' // change it to your own
+global.nomorbot = '2349017935543' //Change it to your own
+global.nomorown = '2349017935543' //Change it to your own
+global.namebot = '👑𝓟ℛ𝓘𝓝𝓒𝓔' //change it to your own
+global.nameown = '𝓟ℛ𝓘𝓝𝓒𝓔-ᴏꜰꜰɪᴄɪᴀʟ🎐' // change it to your own
 //*============= ==============*/
 
 
@@ -77,7 +77,7 @@ let wibh = moment.tz('Asia/Dhaka').format('HH')
 
 // if you don't have it, type "-" or leave it alone so that there are credits :v
 global.sig = 'https://instagram.com/sla.sher_' //Link Instagrammu
-global.sgh = 'https://github.com/X-S-L-A-S-H-E-R/X-GEN-MD' //Link Githubmu
+global.sgh = 'https://github.com/prince-manuel/X-GEN-MD' //Link Githubmu
 global.sgc = 'https://chat.whatsapp.com/Iah40dk4H2EClu9HqlCxdH'
 global.sdc = '-' //Fill it out using the Discord link, if there is one, just leave it
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, This is up to you to fill in :v
