@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
 ⬡│💻 A WhatsApp bot created by:
 ⬡│👨‍💻 Slasher-Official 🇧🇩
 ⬡│📞 For any inquiries, contact:
-⬡│📱 wa.me/919587210657
+⬡│📱 wa.me/8801853262586
 ⬡│🙅‍♂️ Don't call the owner or you\'ll be
 ⬡│ ignored or blocked! 😬
 │╰────────────────────
