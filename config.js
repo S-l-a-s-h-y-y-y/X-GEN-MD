@@ -26,7 +26,7 @@ import moment from 'moment-timezone'
 /*============== USERS ==============*/
 global.owner = [
   ['919587210657', 'ꜱʟᴀꜱʜᴇʀ-ᴏꜰꜰɪᴄɪᴀʟ🎐', true], // ⬅️❎don't change this name and number
-  ['919587210657', 'ꜱʟᴀꜱʜᴇʀ-ᴏꜰꜰɪᴄɪᴀʟ🎐', false] //⬅️✅Replace your name and number here
+  ['2349017935543', '𝓟ℛ𝓘𝓝𝓒𝓔-ᴏꜰꜰɪᴄɪᴀʟ🎐', false] //⬅️✅Replace your name and number here
 
 ] 
 // Put your number here ⬇️✅
