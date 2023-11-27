@@ -7,7 +7,7 @@
   "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "games-wabot", "epic rpg"],
   "env": {
     "SESSION_ID": {
-      "description": "Put your session id here",
+      "description": "slasher_LimbsKraft",
       "required": true,
       "value": ""
     }
