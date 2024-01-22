@@ -1,20 +1,6 @@
 // - - THANKS TO - -
-// • GOD
-// • ImYanXiao
-// • GURU
-// • TeamOldUser
-// • Nurutomo
-// • Ikratos
-// • TECHNICAL-NAVEED
-// • Bochilgaming
-// • Rominaru
-// • Kannachann
-// • FahriAdison
-// • The.Sad.Boy01
-// • Rlxfly
-// • Rasel comel
-// • Xtreshe (Beban)
-// • Dll
+// • ❉্᭄͜͡  ﾑ乃りひﾚﾚﾑん
+// •  ᗪ乇ᐯ|ㄥ ☠︎︎ 乙ㄖ几乇
 
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
@@ -25,16 +11,16 @@ import moment from 'moment-timezone'
 
 /*==============USER-INFO==============*/
 global.owner = [
-  ['8801853262586', 'ꜱʟᴀꜱʜᴇʀ ᴏꜰꜰɪᴄɪᴀʟ', true], 
+  ['923196663628', 'ᗪ乇ᐯ|ㄥ ☠︎︎ 乙ㄖ几乇', true], 
   ['put your number', 'your-name', true] 
 ] 
 
-global.mods = ['put-your-number','8801853262586'] //Don't replace this,If you want to add someone add any dev
-global.prems = ['put-premium-user-number','']
-global.nomorbot = 'your-bot-number' //Change it to your own
-global.nomorown = 'owner-number' //Change it to your own
-global.namebot = 'bot-name' //change it to your own
-global.nameown = 'owner-name' // change it to your own
+global.mods = ['put-your-number','923196663628'] //Don't replace this,If you want to add someone add any dev
+global.prems = ['923196663628','923196663628']
+global.nomorbot = '923196663628' //Change it to your own
+global.nomorown = '923196663628' //Change it to your own
+global.namebot = 'ᗪ乇ᐯ|ㄥ ☠︎︎ 乙ㄖ几乇' //change it to your own
+global.nameown = 'ᗪ乇ᐯ|ㄥ ☠︎︎ 乙ㄖ几乇' // change it to your own
 
 //*============= ==============*/
 
@@ -121,8 +107,8 @@ global.APIKeys = { // APIKey Here
 global.wm = '「 x-ɢᴇɴ-ᴍᴅ 」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Slasher_Ser- ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = 'x-ɢᴇɴ-ᴍᴅ'
-global.footerTXT = `x-ɢᴇɴ-ᴍᴅ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +880 1853 262586`
-global.fig = `Follow me on instagram:\n\t\tinstagram.com/sla.sher_`
+global.footerTXT = `x-ɢᴇɴ-ᴍᴅ • ❉্᭄͜͡  ﾑ乃りひﾚﾚﾑん\nowner: 923196663628`
+global.fig = `Follow me on instagram:\n\t\tinstagram.com/`
 global.botdate = `🛑 Date: ${week} ${date}`
 global.bottime = `🧑‍💻 Time : ${wktuwib}`
 global.titlebot = '🎋 ┊ x-ɢᴇɴ ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
