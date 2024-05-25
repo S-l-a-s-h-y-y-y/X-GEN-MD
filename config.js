@@ -41,8 +41,8 @@ global.nameown = 'HENX' // change it to your own
 
 
 /*============== CHATGPT ==============*/
-global.openAiapi = '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'   // Get you Api-key from 'https://platform.openai.com/account/api-keys'
-global.org = 'org-hE49SehUQEPAGJAy20yr4Om9'   // Get you Org-Key from 'https://platform.openai.com/account/org-settings' 
+global.openAiapi = 'sk-my-bot-jcFN6hRULn8PUPWGkCcuT3BlbkFJlJAHT1F9cCSbYMBQ39fw'   // Get you Api-key from 'https://platform.openai.com/account/api-keys'
+global.org = 'org-6S5OQo5qCCBiG6Yg2bqmSp0G'   // Get you Org-Key from 'https://platform.openai.com/account/org-settings' 
 //*============= ==============*/
 
 
@@ -88,7 +88,7 @@ global.psaweria = 'https://saweria.com' //Link Saweriamu Kalo Nggada Ketik - aja
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.lolkeysapi = ['BrunoSobrino']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
-global.lolkey = 'apikeymu'
+global.lolkey = '20b80018fcfc6ef3ed845e64'
 global.xkey = 'APIKEYMU'
 global.cricket_URL = 'https://m.cricbuzz.com/live-cricket-scores/56782/pak-vs-nz-new-zealand-tour-of-pakistan-2023' //paste new live match url here
 /*============== API ==============*/
@@ -109,7 +109,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'APIKEYMU',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Apikeymu',
+  'https://api.lolhuman.xyz': '20b80018fcfc6ef3ed845e64',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://zenzapi.xyz': '01ABEB1E11',
   'https://violetics.pw': 'beta',
