@@ -25,32 +25,32 @@ import moment from 'moment-timezone'
 
 /*==============USER-INFO==============*/
 global.owner = [
-  ['8801853262586', 'ꜱʟᴀꜱʜᴇʀ ᴏꜰꜰɪᴄɪᴀʟ', true], 
+  ['6285866034212', 'HENX', true], 
   ['put your number', 'your-name', true] 
 ] 
 
-global.mods = ['put-your-number','8801853262586'] //Don't replace this,If you want to add someone add any dev
-global.prems = ['put-premium-user-number','']
-global.nomorbot = 'your-bot-number' //Change it to your own
-global.nomorown = 'owner-number' //Change it to your own
-global.namebot = 'bot-name' //change it to your own
-global.nameown = 'owner-name' // change it to your own
+global.mods = ['6285866034212'] //Don't replace this,If you want to add someone add any dev
+global.prems = ['6285866034212','']
+global.nomorbot = '6285721670655' //Change it to your own
+global.nomorown = '6285866034212' //Change it to your own
+global.namebot = 'AI - MD' //change it to your own
+global.nameown = 'HENX' // change it to your own
 
 //*============= ==============*/
 
 
 
 /*============== CHATGPT ==============*/
-global.openAiapi = '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'   // Get you Api-key from 'https://platform.openai.com/account/api-keys'
-global.org = 'org-hE49SehUQEPAGJAy20yr4Om9'   // Get you Org-Key from 'https://platform.openai.com/account/org-settings' 
+global.openAiapi = 'sk-my-bot-jcFN6hRULn8PUPWGkCcuT3BlbkFJlJAHT1F9cCSbYMBQ39fw'   // Get you Api-key from 'https://platform.openai.com/account/api-keys'
+global.org = 'org-6S5OQo5qCCBiG6Yg2bqmSp0G'   // Get you Org-Key from 'https://platform.openai.com/account/org-settings' 
 //*============= ==============*/
 
 
 
 /*============= TAIMU =============*/
-let wibh = moment.tz('Asia/Dhaka').format('HH')
-    let wibm = moment.tz('Asia/Dhaka').format('mm')
-    let wibs = moment.tz('Asia/Dhaka').format('ss')
+let wibh = moment.tz('Asia/Jakarta').format('HH')
+    let wibm = moment.tz('Asia/Jakarta').format('mm')
+    let wibs = moment.tz('Asia/Jakarta').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -71,16 +71,16 @@ let wibh = moment.tz('Asia/Dhaka').format('HH')
 /*============== SOCIAL ==============*/
 
 // if you don't have it, type "-" or leave it alone so that there are credits :v
-global.sig = 'https://instagram.com/sla.sher_' //Link Instagrammu
-global.sgh = 'https://github.com/X-S-L-A-S-H-E-R/X-GEN-MD' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/Iah40dk4H2EClu9HqlCxdH'
+global.sig = 'https://instagram.com/drajat.henhen' //Link Instagrammu
+global.sgh = 'https://github.com/henz5' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/KMPr7fXHRYBABxYdHReQVB'
 global.sdc = '-' //Fill it out using the Discord link, if there is one, just leave it
-global.snh = 'https://nhentai.net/g/HaramTod' //Hmmm, This is up to you to fill in :v
+global.snh = 'https://nhentai.net/g/' //Hmmm, This is up to you to fill in :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '085736178354' //Nomor Danamu
-global.ppulsa = '085736178354' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '085866034212' //Nomor Danamu
+global.ppulsa = '085866034212' //Nomor SimCard Yang Kamu Pake
+global.psaweria = 'https://saweria.com' //Link Saweriamu Kalo Nggada Ketik - aja
 
 
 
@@ -88,7 +88,7 @@ global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.lolkeysapi = ['BrunoSobrino']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
-global.lolkey = 'apikeymu'
+global.lolkey = '20b80018fcfc6ef3ed845e64'
 global.xkey = 'APIKEYMU'
 global.cricket_URL = 'https://m.cricbuzz.com/live-cricket-scores/56782/pak-vs-nz-new-zealand-tour-of-pakistan-2023' //paste new live match url here
 /*============== API ==============*/
@@ -109,7 +109,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'APIKEYMU',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Apikeymu',
+  'https://api.lolhuman.xyz': '20b80018fcfc6ef3ed845e64',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://zenzapi.xyz': '01ABEB1E11',
   'https://violetics.pw': 'beta',
@@ -118,14 +118,14 @@ global.APIKeys = { // APIKey Here
 // The word APIKEY is filled with your own apikey, by buying it on the website
 
 /*============== WATERMARK ==============*/
-global.wm = '「 x-ɢᴇɴ-ᴍᴅ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Slasher_Ser- ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = 'x-ɢᴇɴ-ᴍᴅ'
-global.footerTXT = `x-ɢᴇɴ-ᴍᴅ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +880 1853 262586`
-global.fig = `Follow me on instagram:\n\t\tinstagram.com/sla.sher_`
+global.wm = '「 x-AI-ᴍᴅ 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘AI- ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = 'x-AI-ᴍᴅ'
+global.footerTXT = `x-AI-ᴍᴅ • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +6285866034212`
+global.fig = `Follow me on instagram:\n\t\tinstagram.com/drajat.henhen`
 global.botdate = `🛑 Date: ${week} ${date}`
 global.bottime = `🧑‍💻 Time : ${wktuwib}`
-global.titlebot = '🎋 ┊ x-ɢᴇɴ ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
+global.titlebot = '🎋 ┊ x-AI ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
 global.logo = 'https://i.ibb.co/jLnr3K9/20231025-195821.jpg'
 
@@ -193,10 +193,10 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'x_sla.sher_'
-global.stickauth = `「 x-ɢᴇɴ-ᴍᴅ 」`
+global.stickpack = 'x-Ai-MD'
+global.stickauth = `「 x-Ai-ᴍᴅ 」`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ x-ɢᴇɴ-ᴍᴅ'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ x-Ai-ᴍᴅ'
 
 global.multiplier = 38 // The higher, The harder levelup
 
