@@ -1,9 +1,9 @@
-# Bot Closed 🥲
+# UMBIYO
 
 - Click the below link 🔗 to get the latest bot
 
 - New Bot
-- (https://github.com/V-E-N-O-X/IRIS-MD)
+- (NINTE THALLA POLAYADI)
 
 
 - bot is public rn
