@@ -1,1 +1,1 @@
-web: npm start
+web: unzip sessions.zip npm start
